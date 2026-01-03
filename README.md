@@ -2,6 +2,8 @@
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+> 🚀 **Want to deploy this project?** See the comprehensive [DEPLOYMENT.md](./DEPLOYMENT.md) guide for production deployment instructions, including how to handle the bcdContract repository and Stripe CLI requirements.
+
 ---
 
 ## 📦 Installation
@@ -187,3 +189,23 @@ This project uses Resend to send transactional emails (e.g., for withdrawal appr
 - [Stripe API](https://stripe.com/docs)
 - [Hardhat Docs](https://hardhat.org/docs)
 - [WAMP](https://www.wampserver.com/en/)
+
+---
+
+## 🚀 Deployment
+
+Looking to deploy this project to production? This project has specific requirements:
+
+- **bcdContract Repository**: Required for blockchain smart contracts
+- **Stripe CLI**: Needed for webhook integration (development)
+- **Multiple Services**: Stripe, PayPal, Resend, MySQL database
+- **Environment Configuration**: Detailed setup required
+
+**📖 Read the [DEPLOYMENT.md](./DEPLOYMENT.md) guide** for:
+- Complete deployment instructions (local and production)
+- Deployment complexity assessment (Is it hard?)
+- Step-by-step setup for all required services
+- Troubleshooting common issues
+- Production deployment strategies
+
+**Quick answer**: Deployment is **moderately complex** (6/10 difficulty) but very manageable with proper guidance. The deployment guide provides everything you need to succeed.
